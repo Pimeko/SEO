@@ -1,0 +1,14 @@
+histogram_all : {
+  'de' :
+    {
+      nb_occurences : 11,
+      pages : [1, 2]
+    }
+  }
+
+w = TF x log(N/df)
+TF  = 11 / 50
+N   = 5 (nb pages total)
+df  = 3 (nb pages qui contiennent de)
+
+result : {'de' : w}
